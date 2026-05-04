@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  font-family: "Sofia", cursive;
+
+
+}
+body{
+    color:white;
+    background: black;
+   
+   
+   
+}
+a{
+    color:white;
+    padding:4px 8px;
+    border-radius: 4px;
+    transition: all 3s ease;
+
+}
+.navbar{
+    display:flex;
+    gap:16px;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position:absolute;
+    top:0;
+    left:0;
+   width: 100%;
+   z-index: 1000;
+}
+a:hover, .active{
+    background-color: orange;
+}
+.hero{
+    position: relative;
+    height:100vh;
+    width:100%;
+}
+.hero img{
+   position: absolute;
+   object-fit: cover;
+   width:100%
+}
+#purple, #moon{
+    mix-blend-mode: screen;
+}
+.hero p {
+    position: absolute;
+    top:50%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    width:100%;
+    text-shadow: 8px 8px 8px black;
+    line-height:1.1;
+    transform: translateY(-50%);
+}
+.hero p span{
+    font-size: 48px;
+    font-weight: 300;
+}
+::-webkit-scrollbar{
+    width:8px;
+}
+::-webkit-scrollbar-track{
+    background-color: red;
+}
+::-webkit-scrollbar-thumb{
+    background-color: blue;
+}
+main{
+    position: relative;
+    padding: 92px 0;
+    background-color: black;
+
+}
+main div{
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+}
+main h2{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
